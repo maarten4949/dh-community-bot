@@ -89,7 +89,7 @@ router.post('/', async (request, env) => {
         return new JsonResponse({
           type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
           data: {
-            content: '1. Launch of Level Unknown: Backrooms \\n 2. Return to Full Production on Dreamhouse \\n 3. Kickstart the Marketing with a New Trailer and many Announcements \\n 4. Closed-Beta Demo Release (Approx. 6 Months Post-Production Restart) \\n 5. Public Demo Release (Approx. 1 Month After Closed-Beta) \\n 6. Ongoing Marketing & Feedback Collection \\n 7. Closed-Beta Full Game Release \\n 8. Early Access Launch & Beyond',
+            content: '1. Launch of Level Unknown: Backrooms (No official date)\n\n2. Return to Full Production on Dreamhouse (After LU:B launch)\n\n3. Kickstart the Marketing with a New Trailer and many Announcements\n\n4. Closed-Beta Demo Release (Approx. 6 Months Post-Production Restart)\n\n5. Public Demo Release (Approx. 1 Month After Closed-Beta)\n\n6. Ongoing Marketing & Feedback Collection\n\n7. Closed-Beta Full Game Release\n\n8. Early Access Launch & Beyond\n\n Source: https://discord.com/channels/776076520828567572/863081690875560016/1272082668393205815',
           }
         });
       }
@@ -121,7 +121,7 @@ router.post('/', async (request, env) => {
         return new JsonResponse({
           type: InteractionResponseType.CHANNEL_MESSAGE_WITH_SOURCE,
           data: {
-            content: 'Level Unknown: Backrooms is a horror and puzzle game developed by Podarge Visions (the same developers as Dreamhouse: The Game) and published by Podarge Publishing. This game is the current priority and will be released before Dreamhouse: The Game.',
+            content: 'Level Unknown: Backrooms (LU:B) is a horror and puzzle game developed by Podarge Visions (the same developers as Dreamhouse: The Game) and published by Podarge Publishing. This game is the current priority and will be released before Dreamhouse: The Game. The release date of LU:B is still unknown.',
           },
         });
       }
