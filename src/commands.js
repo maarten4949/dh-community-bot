@@ -24,6 +24,12 @@ export const RELEASE_COMMAND = {
   integration_types: [0, 1],
   contexts: [0, 1, 2],
 };
+export const ROADMAP_COMMAND = {
+  name: 'roadmap',
+  description: 'Get info about the current roadmap.',
+  integration_types: [0, 1],
+  contexts: [0, 1, 2],
+};
 
 export const DEVELOPERS_COMMAND = {
   name: 'developers',
@@ -42,6 +48,13 @@ export const PUBLISHERS_COMMAND = {
 export const PLATFORMS_COMMAND = {
   name: 'platforms',
   description: 'Get information about all the platforms Dreamhouse: The Game will release on.',
+  integration_types: [0, 1],
+  contexts: [0, 1, 2],
+};
+
+export const LEVELUNKNOWN_COMMAND = {
+  name: 'levelunknown',
+  description: 'Get information about Level Unknown: Backrooms (LU:B).',
   integration_types: [0, 1],
   contexts: [0, 1, 2],
 };

@@ -1,4 +1,4 @@
-import { RELEASE_COMMAND, DEVELOPERS_COMMAND, PUBLISHERS_COMMAND, PLATFORMS_COMMAND } from './commands.js';
+import { RELEASE_COMMAND, DEVELOPERS_COMMAND, PUBLISHERS_COMMAND, PLATFORMS_COMMAND, LEVELUNKNOWN_COMMAND, ROADMAP_COMMAND } from './commands.js';
 import dotenv from 'dotenv';
 import process from 'node:process';
 
@@ -34,7 +34,7 @@ const response = await fetch(url, {
     Authorization: `Bot ${token}`,
   },
   method: 'PUT',
-  body: JSON.stringify([RELEASE_COMMAND, DEVELOPERS_COMMAND, PUBLISHERS_COMMAND, PLATFORMS_COMMAND]),
+  body: JSON.stringify([RELEASE_COMMAND, DEVELOPERS_COMMAND, PUBLISHERS_COMMAND, PLATFORMS_COMMAND, LEVELUNKNOWN_COMMAND, ROADMAP_COMMAND]),
 });
 
 if (response.ok) {
